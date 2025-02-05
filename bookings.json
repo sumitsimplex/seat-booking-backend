@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Desk 1",
+    "bookings": {}
+  },
+  {
+    "id": 2,
+    "name": "Desk 2",
+    "bookings": {}
+  },
+  {
+    "id": 3,
+    "name": "Desk 3",
+    "bookings": {}
+  },
+  {
+    "id": 4,
+    "name": "Desk 4",
+    "bookings": {}
+  },
+  {
+    "id": 5,
+    "name": "Desk 5",
+    "bookings": {}
+  },
+  {
+    "id": 6,
+    "name": "Desk 6",
+    "bookings": {}
+  },
+  {
+    "id": 7,
+    "name": "Desk 7",
+    "bookings": {}
+  }
+]
