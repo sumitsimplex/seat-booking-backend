@@ -4,9 +4,10 @@ import json
 from flask_cors import CORS  # Enable CORS for frontend requests
 
 app = Flask(__name__)
-CORS(app)
+# CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
-BOOKINGS_FILE = "bookings.json"
+BOOKINGS_FILE = "../bookings.json"
 
 # Load bookings from file
 def load_bookings():
@@ -78,4 +79,5 @@ def cancel_booking(desk_id):
         return jsonify({"message": "Invalid request"}), 400
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
+
